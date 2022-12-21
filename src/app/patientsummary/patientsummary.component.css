@@ -1,0 +1,6 @@
+.card-container {
+    
+    /* needed styles below */
+    display: flex;
+    justify-content: space-between;
+  }

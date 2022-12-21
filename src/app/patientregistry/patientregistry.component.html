@@ -1,0 +1,130 @@
+<mat-card>
+    <mat-card-title>
+        <h4>Patient's Details</h4>
+    </mat-card-title>
+<br>
+<div class="field">
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Surname*</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label> Telephone 1*</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Residence*</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Next of Kin Contact* </mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Other names*</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Telephone 2</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;" appearance="fill">
+        <mat-label>Town</mat-label>
+        <mat-select>
+          <mat-option value="Nairobi">Nairobi</mat-option>
+          <mat-option value="Machakos">Machakos</mat-option>
+          <mat-option value="Eldoret">Eldoret</mat-option>
+          <mat-option value="Mombasa">Mombasa</mat-option>
+          <mat-option value="Mombasa">Kisumu</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;" appearance="fill">
+        <mat-label>Notes</mat-label>
+        <textarea matInput></textarea>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;" appearance="fill">
+        <mat-label>Sex</mat-label>
+        <mat-select>
+          <mat-option value="male">male</mat-option>
+          <mat-option value="female">female</mat-option>
+          
+        </mat-select>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Email*</mat-label>
+        <input matInput>
+      </mat-form-field>
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Reference number</mat-label>
+        <input matInput>
+      </mat-form-field>
+     
+      <mat-form-field style="margin-left: 30px;"  appearance="fill">
+        <mat-label>Date of Birth</mat-label>
+        <input matInput [matDatepicker]="picker">
+        <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
+    
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+      <mat-label>Postal Address</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;" appearance="fill">
+      <mat-label>Nationality</mat-label>
+      <mat-select>
+        <mat-option value="Kenya">Kenya</mat-option>
+        <mat-option value="Tanzania">Tanzania</mat-option>
+        <mat-option value="Uganda">Uganda</mat-option>
+        <mat-option value="Zimbabwe">Zimbabwe</mat-option>
+        <mat-option value="Ethiopia">Ethiopia</mat-option>
+        <mat-option value="Sudan">Sudan</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;" appearance="fill">
+      <mat-label>ID type*</mat-label>
+      <mat-select>
+        <mat-option value="Kenya">Kenya</mat-option>
+        <mat-option value="Tanzania">Tanzania</mat-option>
+        
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+      <mat-label>Postal Code</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+      <mat-label>Next of Kin*</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+      <mat-label>ID number</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;" appearance="fill">
+      <mat-label>Nationality</mat-label>
+      <mat-select>
+        <mat-option value="Doctor">Doctor</mat-option>
+        <mat-option value="Engineer">Engineer</mat-option>
+        <mat-option value="Nurse">Nurse</mat-option>
+        <mat-option value="Teacher">Teacher</mat-option>
+        <mat-option value="secretary">secretary</mat-option>
+        
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field style="margin-left: 30px;"  appearance="fill">
+      <mat-label>Relationship*</mat-label>
+      <input matInput>
+    </mat-form-field>
+    <mat-card-content align="end" >
+      <p style="margin-right: 200px;">Patient no:</p>
+      <p style="margin-right: 200px;">inpatient no:</p>
+      <p style="margin-right: 200px;">Registered on:</p>
+      <button  class="button">customer schemes</button>
+     </mat-card-content>
+    </div>
+    
+    </mat-card>
+    
+
+  

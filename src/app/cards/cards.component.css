@@ -1,0 +1,35 @@
+
+.card-container {
+    
+    /* needed styles below */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .example-card {
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 1 auto;
+  cursor: pointer; 
+  }
+  
+  .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
+  .icon {
+    size: 50px; 
+  }
+
+  .displaycards{
+    justify-content: space-between;
+  }
+
+  .card-appointment {   width: calc(40% - 40px);   height: calc(40% - 40px); }
+
+  .card-todo {   width: calc(20% - 40px);   height: calc(20% - 40px); }
+
